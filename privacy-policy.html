@@ -77,15 +77,21 @@
 
     <h2>3. Permissions Used</h2>
     <p>
-      To provide accurate step counting and wellness tracking, our app requests the following permission:
+      To provide accurate step counting and wellness tracking, our app requests the following permissions:
     </p>
+
     <pre style="background:#f4f4f4; padding:10px; border-radius:5px; overflow:auto;">
 &lt;uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/&gt;
+&lt;uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/&gt;
+&lt;uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/&gt;
     </pre>
-    <p>
-      <strong>Purpose:</strong> This permission is used solely to detect and count your physical activity steps for fitness tracking.  
-      We do not collect, transmit, or share this data outside your device.
-    </p>
+
+    <h3>Purpose of These Permissions</h3>
+    <p><strong>ACTIVITY_RECOGNITION:</strong> Used solely to detect and count your physical activity steps. Data never leaves your device.</p>
+
+    <p><strong>FOREGROUND_SERVICE_LOCATION:</strong> Used to run a continuous foreground service that collects real-time movement-related data required for accurate step counting. This service must remain active even when the app is closed or terminated so that step tracking remains accurate without gaps.</p>
+
+    <p><strong>FOREGROUND_SERVICE_DATA_SYNC:</strong> Used to keep your step data updated and synced locally on your device at all times. Syncing must start immediately to avoid missing activity records. Pausing or restarting may cause inaccurate totals or lost entries.</p>
 
     <h2>4. How We Use Information</h2>
     <p>
