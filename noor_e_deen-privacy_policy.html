@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Noor-e-Deen (نور الدين)</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                   Helvetica, Arial, sans-serif;
+      background: #f5f5f5;
+      color: #212121;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    /* ── Header ─────────────────────────────────────────────── */
+    header {
+      background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 60%, #388E3C 100%);
+      color: #fff;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+
+    header .app-name-arabic {
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      direction: rtl;
+      margin-bottom: 4px;
+    }
+
+    header .app-name-english {
+      font-size: 1.15rem;
+      font-weight: 400;
+      opacity: 0.88;
+      letter-spacing: 1px;
+      margin-bottom: 16px;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      font-weight: 600;
+      border-top: 1px solid rgba(255,255,255,0.35);
+      padding-top: 16px;
+      margin-top: 8px;
+    }
+
+    header p.meta {
+      font-size: 0.85rem;
+      opacity: 0.75;
+      margin-top: 8px;
+    }
+
+    /* ── Content wrapper ─────────────────────────────────────── */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+    }
+
+    /* ── Sections ─────────────────────────────────────────────── */
+    section {
+      background: #fff;
+      border-radius: 8px;
+      padding: 28px 32px;
+      margin-top: 24px;
+      border-left: 4px solid #1B5E20;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+
+    section h2 {
+      color: #1B5E20;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    section h2 .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      background: #1B5E20;
+      color: #fff;
+      border-radius: 50%;
+      font-size: 0.8rem;
+      flex-shrink: 0;
+    }
+
+    section h3 {
+      color: #2E7D32;
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 18px 0 8px;
+    }
+
+    section p {
+      margin-bottom: 10px;
+      color: #424242;
+    }
+
+    section p:last-child { margin-bottom: 0; }
+
+    section ul {
+      padding-left: 22px;
+      margin-bottom: 10px;
+      color: #424242;
+    }
+
+    section ul li { margin-bottom: 6px; }
+
+    /* ── "No data" badge ─────────────────────────────────────── */
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 14px 0 4px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #E8F5E9;
+      color: #1B5E20;
+      border: 1px solid #A5D6A7;
+      border-radius: 20px;
+      padding: 5px 14px;
+      font-size: 0.82rem;
+      font-weight: 600;
+    }
+
+    .badge .icon { font-size: 1rem; }
+
+    /* ── Permissions table ───────────────────────────────────── */
+    .table-wrap {
+      overflow-x: auto;
+      margin-top: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+
+    thead th {
+      background: #1B5E20;
+      color: #fff;
+      text-align: left;
+      padding: 10px 14px;
+      font-weight: 600;
+    }
+
+    tbody tr:nth-child(odd)  { background: #F9FBF9; }
+    tbody tr:nth-child(even) { background: #fff; }
+
+    tbody td {
+      padding: 10px 14px;
+      vertical-align: top;
+      color: #424242;
+      border-bottom: 1px solid #E0E0E0;
+    }
+
+    tbody td:first-child {
+      white-space: nowrap;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+                   Courier, monospace;
+      color: #1B5E20;
+      font-size: 0.8rem;
+    }
+
+    /* ── Contact block ───────────────────────────────────────── */
+    .contact-box {
+      background: #E8F5E9;
+      border: 1px solid #A5D6A7;
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin-top: 12px;
+    }
+
+    .contact-box p { color: #1B5E20; margin: 0; }
+
+    .contact-box a {
+      color: #1B5E20;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .contact-box a:hover { text-decoration: underline; }
+
+    /* ── Footer ─────────────────────────────────────────────── */
+    footer {
+      text-align: center;
+      padding: 24px 20px;
+      font-size: 0.8rem;
+      color: #757575;
+    }
+
+    footer a { color: #1B5E20; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* ── Responsive ──────────────────────────────────────────── */
+    @media (max-width: 560px) {
+      section { padding: 20px 18px; }
+      header .app-name-arabic { font-size: 1.9rem; }
+      header h1 { font-size: 1.3rem; }
+      tbody td:first-child { white-space: normal; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════ HEADER ══════════ -->
+<header>
+  <div class="app-name-arabic">نور الدين</div>
+  <div class="app-name-english">Noor-e-Deen</div>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Package: com.mi.nooredeen &nbsp;|&nbsp; Effective Date: May 2025</p>
+</header>
+
+<div class="container">
+
+  <!-- ── 1. Introduction ──────────────────────────────────────── -->
+  <section>
+    <h2><span class="num">1</span> Introduction</h2>
+    <p>
+      Welcome to <strong>Noor-e-Deen (نور الدين)</strong> — a free, fully offline
+      Islamic companion app for Sunni Muslims. The app provides daily prayer times,
+      an automated Azaan (call to prayer) alarm, a Qibla compass, and an Islamic
+      calendar — all without requiring an internet connection.
+    </p>
+    <p>
+      This Privacy Policy explains what information the app accesses and how it is
+      used. We are committed to full transparency: <strong>Noor-e-Deen does not
+      collect, transmit, or share any personal data with us or any third party.</strong>
+    </p>
+    <div class="badge-row">
+      <span class="badge"><span class="icon">🚫</span> No internet required</span>
+      <span class="badge"><span class="icon">🚫</span> No user accounts</span>
+      <span class="badge"><span class="icon">🚫</span> No analytics</span>
+      <span class="badge"><span class="icon">🚫</span> No ads</span>
+      <span class="badge"><span class="icon">🚫</span> No data sent to servers</span>
+    </div>
+  </section>
+
+  <!-- ── 2. Information We Collect ────────────────────────────── -->
+  <section>
+    <h2><span class="num">2</span> Information We Collect</h2>
+    <p>
+      Noor-e-Deen does <strong>not</strong> collect any personally identifiable
+      information. The only data stored is on your own device using Android's
+      <em>SharedPreferences</em> (a private, sandboxed local storage) and includes:
+    </p>
+    <ul>
+      <li>Prayer times you set manually for each of the five daily prayers</li>
+      <li>App settings such as your chosen theme (light/dark) and display language</li>
+      <li>Whether the Azaan alarm feature is enabled or disabled</li>
+    </ul>
+    <p>
+      This data never leaves your device. It is never uploaded, synced, or shared
+      in any form.
+    </p>
+  </section>
+
+  <!-- ── 3. Location Data ─────────────────────────────────────── -->
+  <section>
+    <h2><span class="num">3</span> Location Data</h2>
+    <p>
+      The Qibla finder screen uses your device's location sensor to calculate the
+      compass bearing toward the Kaaba in Mecca. Location is accessed <strong>only
+      while that screen is open</strong> and the permission is granted.
+    </p>
+    <ul>
+      <li>Location coordinates are used <em>in-memory</em> for the Qibla calculation only.</li>
+      <li>Coordinates are <strong>never</strong> stored, logged, or transmitted.</li>
+      <li>If you deny location permission, all other app features continue to work normally.</li>
+    </ul>
+  </section>
+
+  <!-- ── 4. Permissions We Use ────────────────────────────────── -->
+  <section>
+    <h2><span class="num">4</span> Permissions We Use</h2>
+    <p>
+      The table below lists every Android permission declared by the app and explains
+      exactly why it is needed.
+    </p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Permission</th>
+            <th>Why it is needed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>RECEIVE_BOOT_COMPLETED</td>
+            <td>Re-schedule prayer alarms automatically after the device reboots, so you never miss a prayer time.</td>
+          </tr>
+          <tr>
+            <td>SCHEDULE_EXACT_ALARM</td>
+            <td>Set precise prayer-time alarms on Android 12 — required by the OS for exact alarms.</td>
+          </tr>
+          <tr>
+            <td>USE_EXACT_ALARM</td>
+            <td>Set precise prayer-time alarms on Android 13 and above — the newer OS-level replacement for SCHEDULE_EXACT_ALARM.</td>
+          </tr>
+          <tr>
+            <td>POST_NOTIFICATIONS</td>
+            <td>Show the Azaan alert notification when a prayer time arrives (required on Android 13+).</td>
+          </tr>
+          <tr>
+            <td>WAKE_LOCK</td>
+            <td>Keep the CPU awake long enough to play the full Azaan audio when the alarm fires, even if the screen is off.</td>
+          </tr>
+          <tr>
+            <td>FOREGROUND_SERVICE</td>
+            <td>Run the Azaan audio playback as a foreground service so Android does not kill it mid-prayer.</td>
+          </tr>
+          <tr>
+            <td>FOREGROUND_SERVICE_MEDIA_PLAYBACK</td>
+            <td>The required OS sub-type for foreground services that play audio.</td>
+          </tr>
+          <tr>
+            <td>ACCESS_FINE_LOCATION</td>
+            <td>Obtain a precise GPS location to calculate the exact Qibla direction toward Mecca. Used only inside the Qibla screen; never stored or transmitted.</td>
+          </tr>
+          <tr>
+            <td>ACCESS_COARSE_LOCATION</td>
+            <td>Fallback location (network/cell) used if GPS is unavailable for the Qibla calculation.</td>
+          </tr>
+          <tr>
+            <td>REQUEST_IGNORE_BATTERY_OPTIMIZATIONS</td>
+            <td>Asks the user to exempt the app from battery saver restrictions so prayer alarms fire reliably, even in low-power mode.</td>
+          </tr>
+          <tr>
+            <td>USE_FULL_SCREEN_INTENT</td>
+            <td>Display the full-screen Azaan player on a locked or switched-off screen (required on Android 12+).</td>
+          </tr>
+          <tr>
+            <td>VIBRATE</td>
+            <td>Vibrate the device when the Azaan notification fires to alert you even if the ringer is silent.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ── 5. How We Use Your Information ───────────────────────── -->
+  <section>
+    <h2><span class="num">5</span> How We Use Your Information</h2>
+    <p>
+      All data stored by the app is used <strong>exclusively on your device</strong>
+      to provide the app's core features:
+    </p>
+    <ul>
+      <li><strong>Prayer alarms</strong> — saved prayer times are read by the alarm
+          service to fire the Azaan at the correct moment.</li>
+      <li><strong>Qibla compass</strong> — your momentary location is used to compute
+          the bearing angle; the result is displayed on screen and immediately discarded.</li>
+      <li><strong>App preferences</strong> — theme and language settings are applied
+          at startup to personalise your experience.</li>
+    </ul>
+    <p>No data is used for advertising, profiling, analytics, or any commercial purpose.</p>
+  </section>
+
+  <!-- ── 6. Data Storage & Retention ─────────────────────────── -->
+  <section>
+    <h2><span class="num">6</span> Data Storage &amp; Retention</h2>
+    <p>
+      All data is stored exclusively on your device using Android's
+      <em>SharedPreferences</em> API. This is a private, app-sandboxed storage that
+      other apps cannot access.
+    </p>
+    <ul>
+      <li>Data is retained as long as the app is installed.</li>
+      <li>Uninstalling the app permanently deletes all stored data.</li>
+      <li>You can also clear the data at any time via
+          <em>Settings → Apps → Noor-e-Deen → Storage → Clear Data</em>.</li>
+    </ul>
+    <p>
+      No backups of your prayer time settings or preferences are made to any external
+      server or cloud service.
+    </p>
+  </section>
+
+  <!-- ── 7. Third-Party Services ──────────────────────────────── -->
+  <section>
+    <h2><span class="num">7</span> Third-Party Services</h2>
+    <p>
+      Noor-e-Deen does <strong>not</strong> integrate any third-party SDKs,
+      analytics libraries, advertising networks, crash-reporting tools, or cloud
+      services. The app is entirely self-contained.
+    </p>
+    <p>
+      The only external interaction occurs when you download the app from
+      <strong>Google Play</strong>, which is subject to
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">
+        Google's own Privacy Policy</a>.
+    </p>
+  </section>
+
+  <!-- ── 8. Data Security ─────────────────────────────────────── -->
+  <section>
+    <h2><span class="num">8</span> Data Security</h2>
+    <p>
+      Because no personal data is ever transmitted to any server, the primary
+      security boundary is your device itself. We recommend:
+    </p>
+    <ul>
+      <li>Using a screen lock (PIN, pattern, or biometric) on your device.</li>
+      <li>Keeping your device's Android OS up to date to benefit from the latest
+          security patches.</li>
+    </ul>
+    <p>
+      The app stores only non-sensitive preference data (prayer times and UI settings).
+      Even if accessed by another app or a malicious actor with physical device access,
+      this data poses no privacy risk.
+    </p>
+  </section>
+
+  <!-- ── 9. Children's Privacy ────────────────────────────────── -->
+  <section>
+    <h2><span class="num">9</span> Children's Privacy</h2>
+    <p>
+      Noor-e-Deen does not require user accounts, does not collect personal
+      information, and does not contain in-app purchases or advertisements. The app
+      is suitable for users of all ages, including children under 13.
+    </p>
+    <p>
+      Because no personal data is collected, the Children's Online Privacy
+      Protection Act (COPPA) and similar regulations do not impose any additional
+      obligations on this app.
+    </p>
+  </section>
+
+  <!-- ── 10. Changes to This Policy ───────────────────────────── -->
+  <section>
+    <h2><span class="num">10</span> Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. Any changes will be
+      published at this URL and noted in the app's Google Play Store listing under
+      "What's New" for the relevant version.
+    </p>
+    <p>
+      We encourage you to review this page periodically. Continued use of the app
+      after any update constitutes your acceptance of the revised policy.
+    </p>
+  </section>
+
+  <!-- ── 11. Contact Us ────────────────────────────────────────── -->
+  <section>
+    <h2><span class="num">11</span> Contact Us</h2>
+    <p>
+      If you have any questions or concerns about this Privacy Policy or the
+      Noor-e-Deen app, please contact us:
+    </p>
+    <div class="contact-box">
+      <p>
+        <strong>Developer:</strong> Mohsin Innovation<br/>
+        <strong>Email:</strong>
+        <a href="mailto:mohsininnovation@gmail.com">mohsininnovation@gmail.com</a><br/>
+        <strong>App package:</strong> com.mi.nooredeen
+      </p>
+    </div>
+  </section>
+
+</div><!-- /container -->
+
+<footer>
+  &copy; 2025 Mohsin Innovation &mdash; Noor-e-Deen (نور الدين)<br/>
+  This app is free, offline, and collects no personal data.
+</footer>
+
+</body>
+</html>
